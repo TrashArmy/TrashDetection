@@ -1,7 +1,7 @@
 # This file sets unlabelled bounding boxes on items on items 
 # USAGE
 # python classify_opencv.py -g trash_dir/frozen_inference_graph.pb -p trash_dir/graph.pbtxt -i test_cup.jpeg
-# python classify_opencv.py -g ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb -p ssd_mobilenet_v1_coco_2017_11_17.pbtxt -i test_people.jpg
+# python classify_opencv.py -g ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb -p ssd_mobilenet_v1_coco_2017_11_17/ssd_mobilenet_v1_coco_2017_11_17.pbtxt -i test_people.jpg
 
 # import packages
 import numpy as np
